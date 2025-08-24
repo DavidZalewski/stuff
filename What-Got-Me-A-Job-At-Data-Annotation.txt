@@ -1,0 +1,35 @@
+filename = "coding_qual_input.txt"
+
+
+def create_staircase(nums):
+    step = 1
+    subsets = []
+    while len(nums) != 0:
+        if len(nums) >= step:
+            subsets.append(nums[0:step])
+            nums = nums[step:]
+            step += 1
+        else:
+            return False
+
+    return subsets
+
+
+def decode(message_file):
+    list_of_entries = []
+    with open(message_file) as file:
+        while line := file.readline():
+            entries = line.split(' ')  # split lines by space
+            dictionary_entry = {"id": int(entries[0]), "word": entries[1].strip('\n')}  # store each line entry in object
+            list_of_entries.append(dictionary_entry)
+    sorted_entries = sorted(list_of_entries, key=lambda d: d['id'])  # sort the entries by id ascending
+    pyramid_entries = create_staircase(sorted_entries)  # use the create_staircase function from before to create structure
+    secret_message = ""
+    # iterate over pyramid sorted entries, get the word from the last element of this sub-array
+    for entry in pyramid_entries:
+        secret_message += entry[-1]['word'] + " "
+
+    return secret_message
+
+
+print(decode(filename))

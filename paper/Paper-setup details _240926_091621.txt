@@ -1,0 +1,27 @@
+Diagram of LIGO with the additional arms for the double slit. Spaced 500 meters away from the original arms.
+
+The three new pairs of arms would be spaced roughly 10 meters or more apart.
+
+Pair one: classic double slit setup (fixed measurement) acts as control. Distance to slit: same as original setup.
+
+Pair two: constant velocity double slit setup. Two traversal points. Point A: same Distance as classic setup. Point B: Distance is 1km from laser emitter source. May need to be adjusted if this Distance is impractical to measure. 500m may suffice. Suggested velocities: 1m/s through 20m/s
+
+Pair three: accelerating double slit setup. Two traversal Points. Same distances as in Pair two. The slit would accelerate until the halfway point between the two points, followed by deceleration to the other point. Then reverse back in the same manner. 
+
+The arms may need to be encased in a vacuum to minimize noise from air molecules interfering with the measurements. The motion of the double slits may produce disturbances in air molecules which could interfere with measurements. 
+
+For the slits in motion, care will be needed to ensure that the rail is straight, and that the trolley is on frictionless wheels to minimize noise in the measurements. Given the sensitivity of LIGO, the double slit setups will need to be of similar sensitivity and noise reduction so that measurements are accurately capturing quantum phenomenon subject to gravity. Any sort of disparity in instrument sensitivity between LIGO and the double slits will produce erroneous results that will be difficult to verify. 
+
+Future considerations: 
+
+1) incorporate different mediums for the double slit, such as liquid water, or hydrogen gas, or strong electromagnetic field, or other interesting mediums for the emitter to traverse. 
+
+2) Combining aerodynamics into the double slits may produce interesting observations at the quantum level. 
+
+3) modifying the emitter so that it is also in motion may produce interesting observations about quantum phenomenon 
+
+4) using different types of emitters, such as photons, neutrons, protons, to study different force carrier particles and how their wave function collapse differs from electrons. 
+
+5) introducing a barrier where tunneling is predicted to occur, as well as having the barrier and/or emitter in motion. 
+
+6) modifying the double slit to include a plasma barrier (such as fire) prior to measurement to study the interference pattern of particles interacting with a plasma medium.
